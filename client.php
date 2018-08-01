@@ -1,5 +1,5 @@
 <?php
-$server_url = "server/maile_server.php";
+$server_url = "server/mail_server.php";
 
 $filenames =  array();
 foreach($_FILES as $files){
