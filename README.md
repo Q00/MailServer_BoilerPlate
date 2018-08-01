@@ -7,7 +7,10 @@
  - this phpmailer version is 5.2.26 so Your server must have PHP version > 5
  - You can use client.php in your client and use CURL to server that has mail_server.php.
    This Server Encoding is EUC-KR. In some case, Korean letters are broken when I request by using "UTF8".
-   So I have to change Encoding by using this : iconv("UTF8","EUC-KR",$_FILES['first_file']['name'])
+   So I have to change Encoding by using this :
+   ```
+   iconv("UTF8","EUC-KR",$_FILES['first_file']['name'])
+   ```
  - In 'server' directory, I use gmail SMTP, so You can put your gmail ID so that it can send mail to other.
  
 # license
